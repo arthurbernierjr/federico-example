@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import Federico from './Federico.js'
 
-class App extends Component {
+class Edit extends Component {
   constructor(props){
     super(props)
     this.state = {
-      appName: 'Whatever'
+      appName: 'Edit'
     }
     this.changeAppName = this.changeAppName.bind(this)
   }
@@ -30,4 +30,4 @@ class App extends Component {
 
 
 
-export default App;
+export default Edit;
